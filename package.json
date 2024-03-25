@@ -4,7 +4,8 @@
      "description": "",
      "main": "index.js",
      "scripts": {
-          "dev": "sass --watch sass/index.scss css/style.css"
+          "sass": "sass  sass/index.scss css/style.css",
+          "sass:watch": "sass --watch sass/index.scss css/style.css"
      },
      "keywords": [],
      "author": "",
