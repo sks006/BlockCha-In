@@ -1,0 +1,56 @@
+/** @format */
+
+.pricing-section {
+     padding: 80px 0;
+     .price-card {
+          background-color: #f5f5f5f5;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+     }
+     .vertical-gap {
+          flex: 1;
+     }
+     .price-header {
+          background: #d1d1d1;
+          padding: 5rem 3rem;
+          text-align: center;
+          color: #fff;
+     }
+     .personal {
+          background-color: rgb(15, 15, 118);
+          border-radius: 3%;
+     }
+     .professional {
+          background-color: rgb(15, 87, 118);
+          border-radius: 3%;
+     }
+     .premium {
+          background-color: rgb(227, 117, 37);
+          border-radius: 3%;
+          color: black;
+     }
+     .price-body {
+          margin: 3rem 2rem;
+          margin-bottom: 0;
+     }
+     .feature {
+          list-style: none;
+     }
+     .feature li {
+          position: relative;
+          margin-bottom: 30px;
+     }
+     .feature li::before {
+          font-family: "Font Awesome 5 free";
+          font-size: 1.5rem;
+          content: "\f058";
+          position: absolute;
+          left: -30px;
+          margin-top: -5px;
+          color: rgb(118, 50, 226);
+     }
+     .price-footer {
+          padding: 0.5rem;
+     }
+}

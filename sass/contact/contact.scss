@@ -1,0 +1,32 @@
+/** @format */
+
+.contact-section {
+     width: 80%;
+     img {
+          width: 100%;
+          height: 100px;
+          object-fit: cover;
+          object-position: center;
+     }
+
+     input.form-control {
+          margin-bottom: 1rem;
+     }
+
+     .container-form {
+          margin-top: 15px;
+     }
+     .form-contact {
+          box-shadow: none;
+          border: 1px solid #dddd;
+          margin-bottom: 1rem;
+     }
+     .form-control:focus,
+     .form-control:hover {
+          box-shadow: none;
+          border-color: #eeee;
+     }
+     .textarea {
+          max-width: 100%;
+     }
+}

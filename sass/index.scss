@@ -1,0 +1,25 @@
+/** @format */
+
+//import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./nav/nav.scss";
+@import "./footer/footer.scss";
+@import "./hero/hero.scss";
+@import "./feature/feature.scss";
+@import "./carousel/carousel.scss";
+@import "./cta/cta.scss";
+@import "./cta/cta.scss";
+@import "./specification/specification-section.scss";
+@import "./pricing/pricing.scss";
+@import "./contact/contact.scss";
+//main code
+//--------------- main---------------
+.extra-margin {
+     margin-top: 70px;
+}
+.btn {
+     padding: 0.5rem;
+     background-image: linear-gradient(90deg, orange, red);
+     border: none;
+     outline: none;
+}
